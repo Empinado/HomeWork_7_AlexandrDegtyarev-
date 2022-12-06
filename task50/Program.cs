@@ -47,9 +47,10 @@ Console.WriteLine();
 
 if(SearchNum == true)
 {
+    Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine($"Число ({num}) найдено в двумерном массиве. ");
 }
 else
-{
+{   Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine($"Число ({num}) не найдено в двумерном массиве. ");
 }
